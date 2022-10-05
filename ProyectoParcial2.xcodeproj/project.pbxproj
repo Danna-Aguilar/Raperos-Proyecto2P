@@ -14,6 +14,7 @@
 		3D2762C728EB28AD0031D1E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D2762C528EB28AD0031D1E2 /* LaunchScreen.storyboard */; };
 		3D2762CF28EB2F700031D1E2 /* CeldaRaperoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2762CE28EB2F700031D1E2 /* CeldaRaperoController.swift */; };
 		3D2762D128EB33280031D1E2 /* raperos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2762D028EB33280031D1E2 /* raperos.swift */; };
+		3D28D45D28EDD46D00E277C3 /* DetallesRaperos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D28D45C28EDD46D00E277C3 /* DetallesRaperos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		3D2762C828EB28AD0031D1E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D2762CE28EB2F700031D1E2 /* CeldaRaperoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaRaperoController.swift; sourceTree = "<group>"; };
 		3D2762D028EB33280031D1E2 /* raperos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = raperos.swift; sourceTree = "<group>"; };
+		3D28D45C28EDD46D00E277C3 /* DetallesRaperos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallesRaperos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				3D2762C828EB28AD0031D1E2 /* Info.plist */,
 				3D2762CE28EB2F700031D1E2 /* CeldaRaperoController.swift */,
 				3D2762D028EB33280031D1E2 /* raperos.swift */,
+				3D28D45C28EDD46D00E277C3 /* DetallesRaperos.swift */,
 			);
 			path = ProyectoParcial2;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				3D2762D128EB33280031D1E2 /* raperos.swift in Sources */,
 				3D2762CF28EB2F700031D1E2 /* CeldaRaperoController.swift in Sources */,
 				3D2762BF28EB28A80031D1E2 /* PrincipalController.swift in Sources */,
+				3D28D45D28EDD46D00E277C3 /* DetallesRaperos.swift in Sources */,
 				3D2762BD28EB28A80031D1E2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

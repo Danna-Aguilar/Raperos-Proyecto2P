@@ -6,7 +6,7 @@
 //  Copyright © 2022 Sebastian Encinas. All rights reserved.
 //
 
-class Raperos {
+class raperos {
     
     var Rapero: String
     var Edad: String
