@@ -22,6 +22,7 @@ class DetallesRaperosController: UIViewController, UITableViewDelegate, UITableV
     @IBOutlet weak var lblActivo: UILabel!
     @IBOutlet weak var lblEducacion: UILabel!
     
+    @IBOutlet weak var lblimage: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,6 +39,9 @@ class DetallesRaperosController: UIViewController, UITableViewDelegate, UITableV
             lblCiudad.text = raperos?.Ciudad
             lblActivo.text = raperos?.Activo
             lblEducacion.text = raperos?.Educacion
+            lblimage.layer.cornerRadius = 10
+            lblimage.layer.borderWidth = 10
+            lblimage.image = UIImage(named: "\(raperos!.fotito)2")
 
         }
     }
@@ -46,15 +50,15 @@ class DetallesRaperosController: UIViewController, UITableViewDelegate, UITableV
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return raperos!.Raperos.count
+        return raperos!.Canciones.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let celda = tableView.dequeueReusableCell(withIdentifier: "celdaCanciones") as! CancionesController
+        let celda = tableView.dequeueReusableCell(withIdentifier: "CeldaCanciones") as! CancionesController
         
-        celda.lblCancion.text = raperos?.Raperos[indexPath.row].Cancion
-        celda.lblDisco.text = raperos?.Raperos[indexPath.row].Disco
-        celda.lblAño.text = raperos?.Raperos[indexPath.row].Año
+        celda.lblCancion.text = raperos?.Canciones[indexPath.row].Cancion
+        celda.lblDisco.text = raperos?.Canciones[indexPath.row].Disco
+        celda.lblAño.text = raperos?.Canciones[indexPath.row].Año
 
         
         return celda

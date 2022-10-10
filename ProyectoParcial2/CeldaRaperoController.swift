@@ -13,5 +13,7 @@ class CeldaRaperoController: UITableViewCell {
     @IBOutlet weak var lblEdad: UILabel!
     @IBOutlet weak var lblRapero: UILabel!
     @IBOutlet weak var lblNombre: UILabel!
+    @IBOutlet weak var lblimage: UIImageView!
+    
     
 }

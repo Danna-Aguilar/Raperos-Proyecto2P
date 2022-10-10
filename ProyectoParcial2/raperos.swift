@@ -6,7 +6,7 @@
 //  Copyright © 2022 Sebastian Encinas. All rights reserved.
 //
 
-class Raperos {
+class raperos {
     
     var Rapero: String
     var Edad: String
@@ -17,8 +17,9 @@ class Raperos {
     var Activo: String
     var Educacion: String
     var Canciones: [canciones] = []
+    var fotito: String
     
-    init (Rapero:String, Edad:String, Nombre:String, FechaNaci:String, Nacionalidad:String, Ciudad:String, Activo:String, Educacion:String){
+    init (Rapero:String, Edad:String, Nombre:String, FechaNaci:String, Nacionalidad:String, Ciudad:String, Activo:String, Educacion:String, fotito:String){
         self.Rapero = Rapero
         self.Edad = Edad
         self.Nombre = Nombre
@@ -27,6 +28,7 @@ class Raperos {
         self.Ciudad = Ciudad
         self.Activo = Activo
         self.Educacion = Educacion
+        self.fotito = fotito
     }
     
 }
