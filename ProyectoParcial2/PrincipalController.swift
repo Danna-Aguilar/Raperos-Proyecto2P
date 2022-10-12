@@ -33,12 +33,107 @@ class PrincipalController: UIViewController,
         Raperos.append(raperos(Rapero:"Residente", Edad:"44 años", Nombre: "René Pérez Joglars", FechaNaci: "16 oct, ", Nacionalidad:"americana", Ciudad: "Los angeles", Activo: "1545", Educacion: "Harvard", fotito: "residente"))
         
         
-        Raperos[0].Canciones.append(canciones(Cancion: "Nuthing", Disco: "ashton", Año: "2011"))
-        Raperos[0].Canciones.append(canciones(Cancion: "else", Disco: "tron", Año: "2004"))
+        Raperos[0].Canciones.append(canciones(Cancion: "Sexual Eruption", Disco: "Ego Trippin", Año: "2008"))
+        Raperos[0].Canciones.append(canciones(Cancion: "Beautiful", Disco: "Paid tha Cost to Be da Boss", Año: "2002"))
+        Raperos[0].Canciones.append(canciones(Cancion: "Gin and Juice", Disco: "Sueños dorados", Año: "1993"))
+        Raperos[0].Canciones.append(canciones(Cancion: "Beautiful", Disco: "Paid tha Cost to Be da Boss", Año: "2002"))
+        Raperos[0].Canciones.append(canciones(Cancion: "Beautiful", Disco: "Paid tha Cost to Be da Boss", Año: "2002"))
+
         Raperos[1].Canciones.append(canciones(Cancion: "ewe", Disco: "tbc", Año: "2540"))
         Raperos[1].Canciones.append(canciones(Cancion: "eytg", Disco: "tqwe", Año: "7540"))
+        Raperos[1].Canciones.append(canciones(Cancion: "eytg", Disco: "tqwe", Año: "7540"))
+        Raperos[1].Canciones.append(canciones(Cancion: "eytg", Disco: "tqwe", Año: "7540"))
+        Raperos[1].Canciones.append(canciones(Cancion: "eytg", Disco: "tqwe", Año: "7540"))
+        
         Raperos[2].Canciones.append(canciones(Cancion: "qewr", Disco: "tbc", Año: "2540"))
         Raperos[2].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[2].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[2].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[2].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+
+        Raperos[3].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[3].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[3].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[3].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[3].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        
+        Raperos[4].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[4].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[4].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[4].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[4].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        
+        Raperos[5].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[5].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[5].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[5].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[5].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        
+        Raperos[6].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[6].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[6].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[6].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[6].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        
+        Raperos[7].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[7].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[7].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[7].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[7].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        
+        Raperos[8].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[8].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[8].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[8].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[8].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        
+        Raperos[9].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[9].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[9].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[9].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[9].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        
+        Raperos[10].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[10].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[10].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[10].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[10].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        
+        Raperos[11].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[11].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[11].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[11].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[11].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        
+        Raperos[12].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[12].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[12].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[12].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[12].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        
+        Raperos[13].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[13].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[13].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[13].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[13].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        
+        Raperos[14].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[14].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[14].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[14].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+        Raperos[14].Canciones.append(canciones(Cancion: "mnbm", Disco: "fgd", Año: "7000"))
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         
