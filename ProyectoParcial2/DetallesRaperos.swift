@@ -27,7 +27,7 @@ class DetallesRaperosController: UIViewController, UITableViewDelegate, UITableV
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.title = "Detalles Rapero"
+        self.title = "Detalles"
         
         if raperos != nil {
             //self.title = raperos?.titulo
@@ -39,8 +39,10 @@ class DetallesRaperosController: UIViewController, UITableViewDelegate, UITableV
             lblCiudad.text = raperos?.Ciudad
             lblActivo.text = raperos?.Activo
             lblEducacion.text = raperos?.Educacion
-            lblimage.layer.cornerRadius = 10
-            lblimage.layer.borderWidth = 10
+            //lblimage.layer.cornerRadius = 10
+            //lblimage.layer.borderWidth = 10
+            lblimage.layer.cornerRadius = lblimage.frame.size.width / 12
+            lblimage.clipsToBounds = true
             lblimage.image = UIImage(named: "\(raperos!.fotito)2")
 
         }
@@ -65,7 +67,7 @@ class DetallesRaperosController: UIViewController, UITableViewDelegate, UITableV
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 70
+        return 95
     }
     
 }

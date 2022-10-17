@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3D1755FE28F70C1C00E280EA /* RichtiveScript_PERSONAL_USE_ONLY.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3D1755FD28F70C1B00E280EA /* RichtiveScript_PERSONAL_USE_ONLY.otf */; };
-		3D17560028F70C2A00E280EA /* RichtiveScript_PERSONAL_USE_ONLY.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3D1755FF28F70C2900E280EA /* RichtiveScript_PERSONAL_USE_ONLY.otf */; };
 		3D17560228F70C7300E280EA /* Anton-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D17560128F70C7200E280EA /* Anton-Regular.ttf */; };
 		3D17561528F712EE00E280EA /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D17560328F712E400E280EA /* Montserrat-Medium.ttf */; };
 		3D17561628F712EE00E280EA /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D17560428F712E500E280EA /* Montserrat-LightItalic.ttf */; };
@@ -42,7 +41,6 @@
 
 /* Begin PBXFileReference section */
 		3D1755FD28F70C1B00E280EA /* RichtiveScript_PERSONAL_USE_ONLY.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = RichtiveScript_PERSONAL_USE_ONLY.otf; sourceTree = "<group>"; };
-		3D1755FF28F70C2900E280EA /* RichtiveScript_PERSONAL_USE_ONLY.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = RichtiveScript_PERSONAL_USE_ONLY.otf; path = ../../../Downloads/richtive_script/RichtiveScript_PERSONAL_USE_ONLY.otf; sourceTree = "<group>"; };
 		3D17560128F70C7200E280EA /* Anton-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Anton-Regular.ttf"; sourceTree = "<group>"; };
 		3D17560328F712E400E280EA /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
 		3D17560428F712E500E280EA /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
@@ -126,7 +124,6 @@
 				3D17560528F712E500E280EA /* Montserrat-Thin.ttf */,
 				3D17561128F712EC00E280EA /* Montserrat-ThinItalic.ttf */,
 				3D1755FD28F70C1B00E280EA /* RichtiveScript_PERSONAL_USE_ONLY.otf */,
-				3D1755FF28F70C2900E280EA /* RichtiveScript_PERSONAL_USE_ONLY.otf */,
 				3D2762BC28EB28A80031D1E2 /* AppDelegate.swift */,
 				3D2762BE28EB28A80031D1E2 /* PrincipalController.swift */,
 				3D2762C028EB28A80031D1E2 /* Main.storyboard */,
@@ -222,7 +219,6 @@
 				3D17561928F712EE00E280EA /* Montserrat-Bold.ttf in Resources */,
 				3D17561E28F712EE00E280EA /* Montserrat-ExtraLight.ttf in Resources */,
 				3D17562128F712EE00E280EA /* Montserrat-Light.ttf in Resources */,
-				3D17560028F70C2A00E280EA /* RichtiveScript_PERSONAL_USE_ONLY.otf in Resources */,
 				3D17561C28F712EE00E280EA /* Montserrat-ExtraLightItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
